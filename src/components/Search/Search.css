@@ -4,8 +4,10 @@
     justify-content: center;
 }
 
-#search ul li {
-    margin-right: 1.5rem;
+#search ul label{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 26px;
 }
 /* The container */
 .container {

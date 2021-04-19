@@ -30,7 +30,7 @@ const data = {
         },
         {
             _id: '5',
-            name: 'Adidas Sli Pant',
+            name: 'Adidas Slim Pant',
             category: 'Pants',
             image: '/images/p6.jpg',
             price: 139

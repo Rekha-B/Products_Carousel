@@ -5,7 +5,9 @@ const Search = ({categories, activeFilter, onFilterChange}) => {
 
   return (
     <section id="search">
+      
       <ul>
+       <label>Category : </label>
         {categories.map((category) => {
           return (
             <li key={category}>
