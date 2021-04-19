@@ -1,12 +1,10 @@
-# Simple Products Carousel
+# Products Carousel
 
 ## What is the use of this Repo
 
-This Project is a Simple ReactJS Project which demonstrates the following
+This Project is a ReactJS Project which demonstrates the following
 1. Carousel with Products
 2. Filtering Products based on Category
-
-The project Template can be used to build bigger projects
 
 ## Prerequisites
 
