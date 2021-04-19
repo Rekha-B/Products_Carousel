@@ -125,6 +125,20 @@ const data = {
             category: 'Shoes',
             image: '/images/Shoes1.jpg',
             price: 83
+        },
+        {
+            _id: '19',
+            name: 'Zolario Casuals',
+            category: 'Shirts',
+            image: '/images/Shirts4.jpg',
+            price: 83
+        },
+        {
+            _id: '20',
+            name: 'Dennis Casual Shirt',
+            category: 'Shirts',
+            image: '/images/Shirts5.jpg',
+            price: 549
         }
     ]
 }

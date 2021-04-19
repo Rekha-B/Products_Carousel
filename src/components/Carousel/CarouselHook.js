@@ -80,6 +80,7 @@ const useCarouselHook = () => {
         : getItemsToDisplay(0, masterData)
     );
     setActivefilter(newFilters);
+    setCurrentIndex(0);
   };
 
  

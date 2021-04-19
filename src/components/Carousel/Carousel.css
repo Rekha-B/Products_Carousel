@@ -15,9 +15,7 @@ img.medium {
   height: 260px;
   width: 250px;
 }
-.carousel-item:nth-child(2n) img {
-  width: 350px;
-}
+
 .carousel-item {
   border: 0.1rem #c0c0c0 solid;
   background-color: #f8f8f8;
@@ -26,6 +24,7 @@ img.medium {
 }
 .carousel-item:nth-child(2n) {
   box-shadow: 2px 2px 20px #000;
+  width: 350px;
 }
 .card-body > * {
   margin-bottom: 0.5rem;
