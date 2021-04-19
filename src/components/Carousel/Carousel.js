@@ -1,15 +1,24 @@
 import React from "react";
 import "./Carousel.css";
 import useCarouselHook from "./CarouselHook";
+import Search from "../Search/Search";
 
 const Carousel = () => {
   const {
     products,
     nextSlide,
-    prevSlide
+    prevSlide,
+    categories,
+    activeFilter,
+    onFilterChange
   } = useCarouselHook();
   return (
     <React.Fragment>
+      <Search
+        categories={categories}
+        activeFilter={activeFilter}
+        onFilterChange={onFilterChange}
+      />
       <div className="carousel">
         <i id="chevron-arrow-left" onClick={prevSlide} />
         <ol className="carousel-container">
